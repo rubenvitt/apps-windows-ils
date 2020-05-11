@@ -10,6 +10,9 @@ namespace Tests
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Test");
+            Console.WriteLine("....");
+            Console.WriteLine("hmmm...");
         }
     }
 }

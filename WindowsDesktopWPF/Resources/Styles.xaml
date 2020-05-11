@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:WindowsDesktopWPF.Resources">
+    <SolidColorBrush x:Key="Akzentfarbe" Color="Orange" />
+    <Style TargetType="TextBlock" x:Key="TitelTextBlock">
+        <Setter Property="Foreground" Value="{StaticResource ResourceKey=Akzentfarbe}" />
+        <Setter Property="FontSize" Value="30" />
+    </Style>
+</ResourceDictionary>
